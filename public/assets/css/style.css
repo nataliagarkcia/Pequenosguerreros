@@ -1,0 +1,24 @@
+body{
+	background-color: #0a8aee;
+	
+}
+
+#mainTitle{
+	color:	white;
+	font-family: 'Bowlby One SC', cursive;
+	text-align: center;
+	font-size: 3em;
+
+}
+
+#imageHome{
+	width :150%;
+}
+
+#homeContainer{
+	margin-left: 10%;
+}
+.parrafOne{
+	font-family: 'Raleway', sans-serif;
+
+}

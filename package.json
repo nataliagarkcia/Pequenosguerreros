@@ -1,0 +1,25 @@
+{
+  "name": "pequenosguerreros",
+  "version": "1.0.0",
+  "description": "This is the final project for my coding bootcamp class, that will consist in an app that will be a tool for people that start to learn Hapkido (korean martial art)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nataliagarkcia/Pequenosguerreros.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nataliagarkcia/Pequenosguerreros/issues"
+  },
+  "homepage": "https://github.com/nataliagarkcia/Pequenosguerreros#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "path": "^0.12.7"
+  }
+}
