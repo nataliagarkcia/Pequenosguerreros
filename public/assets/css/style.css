@@ -56,28 +56,88 @@ body{
 	margin-left: 2%;
 }
 
-.navbar-fixed-left {
-  width: 140px;
-  position: fixed;
-  border-radius: 0;
-  height: 100%;
+ol.breadcrumb{
+	background-color: #0a8aee;
+	padding-left: 3%;
+
+	
 }
 
-.navbar-fixed-left .navbar-nav > li {
-  float: none;  /* Cancel default li float: left */
-  width: 139px;
+a{
+	color: white;
+	font-family: 'Raleway', sans-serif;
 }
 
-.navbar-fixed-left + .container {
-  padding-left: 160px;
+#video{
+	margin-left:10%;
+	margin-top: 5%;
+
 }
 
-/* On using dropdown menu (To right shift popuped) */
-.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
-  margin-top: -50px;
-  margin-left: 140px;
+#videoDos{
+	margin-left:8%;
+	margin-top: 5%;
+
 }
 
-.nav>li{
-	color:white;
+#videoAlientoTwo{
+	margin-top: 10%;
+}
+.textContent{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+	font-size: 19px;
+	background-color: #ffffff;
+	padding: 12px;
+	border-radius: 10px;
+}
+.infoTitle{
+	font-family: 'Bowlby One SC', cursive;
+	font-size: 2em;
+
+}
+
+.info{
+	margin-top: 4%;
+	margin-left: 5%;
+}
+
+.pageTitle{
+	text-align: center;
+	font-family: 'Bowlby One SC', cursive;
+
+
+}
+
+.pageDescription{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+	text-align: center;
+	margin-left: 25%;
+	font-size: 2em;
+}
+
+#buttonsLlaves{
+	margin-left: 40%;
+	
+}
+
+#buttonsCaidas{
+	margin-left: 37%;
+	
+}
+
+
+
+.btn-lg.round {
+	border-radius: 24px;
+	background-color: #0a8aee;
+	border:none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+
+}
+
+.btn-lg.round:hover{
+	background-color: #aa008f;
 }
