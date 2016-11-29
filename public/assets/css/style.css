@@ -117,6 +117,10 @@ a{
 	font-size: 2em;
 }
 
+#pageAliento{
+	margin-left: 33%;
+}
+
 #buttonsLlaves{
 	margin-left: 40%;
 	
@@ -127,6 +131,10 @@ a{
 	
 }
 
+#buttonsAliento{
+	margin-left: 43%;
+	
+}
 
 
 .btn-lg.round {
