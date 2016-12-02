@@ -8,10 +8,10 @@ body{
 	color:	#0a8aee;
 	font-family: 'Bowlby One SC', cursive;
 	text-align: center;
-	font-size: 3em;
+	font-size: 3em;}
 
 
-}
+
 
 #imageHome{
 	width :100%;
@@ -102,6 +102,7 @@ a{
 	background-color: #0a8aee;
 	font-size: 20px;
 	font-family: 'Raleway', sans-serif;
+	color:White;
 	
 }
 
@@ -112,6 +113,17 @@ a{
 
 .pageTitle{
 	text-align: center;
+	font-family: 'Bowlby One SC', cursive;
+
+
+}
+#footer{
+	margin-top: 8%;
+	padding: 10px 0 10px 0;
+}
+
+#mainTitle2{
+	color:	White;
 	font-family: 'Bowlby One SC', cursive;
 
 
@@ -131,25 +143,31 @@ a{
 
 #buttonsLlaves{
 	margin-left: 42%;
+	margin-bottom: 5%;
 	
 }
 
 #buttonsPumse{
 	margin-left: 25%;
+	margin-bottom: 5%;
 }
 #buttonsCaidas{
 	margin-left: 43%;
-	
+	margin-bottom: 5%;
 }
 #buttonsArmas{
 	margin-left: 40%;
-	
+	margin-bottom: 5%;
 }
 
 
 #buttonsAliento{
-	margin-left: 43%;
-	
+	margin-left: 45%;
+	margin-bottom: 5%;
+}
+
+.kidImage{
+height:400px; 
 }
 
 
