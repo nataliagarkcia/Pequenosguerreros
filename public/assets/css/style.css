@@ -86,7 +86,7 @@ a{
 .textContent{
 	font-family: 'Raleway', sans-serif;
 	font-weight: bolder;
-	font-size: 19px;
+	font-size: 16px;
 	background-color: #ffffff;
 	padding: 12px;
 	border-radius: 10px;
@@ -94,7 +94,15 @@ a{
 .infoTitle{
 	font-family: 'Bowlby One SC', cursive;
 	font-size: 2em;
+	text-align: center;
 
+}
+
+.closeButton{
+	background-color: #0a8aee;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	
 }
 
 .info{
@@ -122,14 +130,22 @@ a{
 }
 
 #buttonsLlaves{
+	margin-left: 42%;
+	
+}
+
+#buttonsPumse{
+	margin-left: 25%;
+}
+#buttonsCaidas{
+	margin-left: 43%;
+	
+}
+#buttonsArmas{
 	margin-left: 40%;
 	
 }
 
-#buttonsCaidas{
-	margin-left: 37%;
-	
-}
 
 #buttonsAliento{
 	margin-left: 43%;
@@ -142,10 +158,12 @@ a{
 	background-color: #0a8aee;
 	border:none;
 	font-family: 'Raleway', sans-serif;
-	font-size: 2em;
+	font-size: 20px;
 
 }
 
 .btn-lg.round:hover{
 	background-color: #aa008f;
+	font-size: 22px;
+
 }
