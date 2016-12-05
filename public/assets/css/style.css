@@ -3,13 +3,27 @@ body{
 	
 }
 
-#indexMain2{
-	background-color: #0a8aee;
+#indexMain3{
+	background-image: url("../images/textura1.svg");
+	position: relative;
+	bottom: 0;
+
 }
 
+#indexMain2{
+	background-color: #0a8aee;
+	padding-bottom: 3%;
+}
+
+#apchagui{
+	margin-left: 18%;
+}
+#caidasPic{
+	margin-left: 8%;
+}
 #mainTitle{
 	margin-top: 10%;
-	color:	#0a8aee;
+	color:	white;
 	font-family: 'Bowlby One SC', cursive;
 	text-align: center;
 	font-size: 3em;}
@@ -55,8 +69,18 @@ body{
 	margin-top: 5%;
 }
 
+#singUp2{
+	margin-bottom: 5%;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+	padding: 15px;
+	background-color: #EF214A;
+	color:white;
+}
+
+
 #indexRight{
-	margin-top: 8%;
+	margin-top: 2%;
 	margin-left: 2%;
 }
 
@@ -143,12 +167,19 @@ a{
 
 #pageAliento{
 	margin-left: 33%;
+
 }
 
 #buttonsLlaves{
 	margin-left: 42%;
-	margin-bottom: 5%;
+	margin-bottom: 6%;
 	
+}
+#llavesPic{
+	margin-left: 29%;
+}
+#alientoImg{
+	margin-left: 18%;
 }
 
 #buttonsPumse{
@@ -157,24 +188,26 @@ a{
 }
 #buttonsCaidas{
 	margin-left: 43%;
-	margin-bottom: 5%;
+	margin-bottom: 3%;
 }
 #buttonsArmas{
 	margin-left: 40%;
 	margin-bottom: 5%;
 }
 
-
 #buttonsAliento{
 	margin-left: 45%;
 	margin-bottom: 5%;
 }
 
-.kidImage{
-height:400px; 
+#buttonsHome{
+	margin: 5% 0 5% 20%;
 }
 
-
+#rowOne{
+	margin-bottom: 2%;
+}
+}
 .btn-lg.round {
 	border-radius: 24px;
 	background-color: #0a8aee;
@@ -185,7 +218,32 @@ height:400px;
 }
 
 .btn-lg.round:hover{
-	background-color: #aa008f;
+	background-color: #EF214A;
 	font-size: 22px;
 
+}
+
+#signUpDiv{
+	background-color: #0a8aee;
+	margin-top: 5%;
+	margin-left: 30%;
+	padding-left: 2%;
+	border-radius: 30px;
+
+}
+.control-label{
+	font-family: 'Raleway', sans-serif;
+	padding-top: 10px;
+	font-weight: bolder;
+
+}
+
+#singUp2:hover{
+	background-color: white;
+	color:#0a8aee;
+}
+
+a:hover{
+	color:black;
+	text-decoration: none;
 }
