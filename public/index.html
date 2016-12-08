@@ -56,7 +56,6 @@
 					        <label>
 					          <input type="checkbox"> Remember me
 					        </label>
-					        <label><a href="#">forgot account</a></label>
 					      </div>
 					    </div>
 					  </div>
@@ -64,11 +63,13 @@
 					    <div class="col-sm-offset-2 col-sm-10">
 					      <button class="btn btn-default" id="quickstart-sign-in" name="signin">Login</button>
 					    <button class="btn btn-default" id="quickstart-sign-up" name="signup">Sign up</button>
-
-					     <button class="mdl-button mdl-js-button mdl-button--raised" disabled id="quickstart-verify-email" name="verify-email">Send Email Verification</button>
-          &nbsp;&nbsp;&nbsp;
-          <button class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-password-reset" name="verify-email">Send Password Reset Email</button>
-
+					    </div>
+					   </div>
+					   <div class="form-group">
+					    <div class="col-sm-offset-2 col-sm-10">
+					     <button class="btn btn-default" disabled id="quickstart-verify-email" name="verify-email">Send Email Verification</button>
+         				 &nbsp;&nbsp;&nbsp;
+         				 <button class="btn btn-default" id="quickstart-password-reset" name="verify-email">Send Password Reset Email</button>
 					    </div>
 					  </div>
 					</form>
@@ -81,10 +82,10 @@
 
 		</div>
 	</div>
-	      <div class="quickstart-user-details-container">
+<!-- <div class="quickstart-user-details-container" id="info">
             Firebase sign-in status: <span id="quickstart-sign-in-status">Unknown</span>
             <div>Firebase auth <code>currentUser</code> object value:</div>
-            <pre><code id="quickstart-account-details">null</code></pre>
+            <pre><code id="quickstart-account-details">null</code></pre>!-->
           </div>	
 
 </body>
@@ -230,9 +231,9 @@
           var uid = user.uid;
           var providerData = user.providerData;
           // [START_EXCLUDE silent]
-          document.getElementById('quickstart-sign-in-status').textContent = 'Signed in';
+         // document.getElementById('quickstart-sign-in-status').textContent = 'Signed in';
           document.getElementById('quickstart-sign-in').textContent = 'Sign out';
-          document.getElementById('quickstart-account-details').textContent = JSON.stringify(user, null, '  ');
+         // document.getElementById('quickstart-account-details').textContent = JSON.stringify(user, null, '  ');//
           if (!emailVerified) {
             document.getElementById('quickstart-verify-email').disabled = false;
           }
@@ -240,9 +241,9 @@
         } else {
           // User is signed out.
           // [START_EXCLUDE silent]
-          document.getElementById('quickstart-sign-in-status').textContent = 'Signed out';
+         // document.getElementById('quickstart-sign-in-status').textContent = 'Signed out';
           document.getElementById('quickstart-sign-in').textContent = 'Sign in';
-          document.getElementById('quickstart-account-details').textContent = 'null';
+         // document.getElementById('quickstart-account-details').textContent = 'null';
           // [END_EXCLUDE]
         }
         // [START_EXCLUDE silent]

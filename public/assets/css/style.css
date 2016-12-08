@@ -50,15 +50,27 @@ body{
 
 }
 
+#quickstart-password-reset,#quickstart-verify-email{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+	padding: 2px;
+	background-color: #0a8aee;
+	color:white;
+}
 
-
-#login, #singUp{
+#quickstart-password-reset{
+	margin-top: 5px;
+}
+#quickstart-sign-in, #quickstart-sign-up{
 	font-family: 'Raleway', sans-serif;
 	font-weight: bolder;
 	padding: 15px;
 	background-color: #0a8aee;
 	color:white;
 	}
+#quickstart-sign-in:hover, #quickstart-sign-up:hover{
+	background-color: #EF214A;color:;
+}
 
 #login{
 	margin: 5% 5%0 

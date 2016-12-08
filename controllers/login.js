@@ -35,19 +35,10 @@ app.get("/llaves", function(req, res) {
 app.get("/pumse", function(req, res) {
     res.sendFile(path.join(__dirname + "/../public/pumse.html"));
   });
-app.get("/signup", function(req, res) {
-    res.sendFile(path.join(__dirname + "/../public/signup.html"));
-  });
+//app.get("/signup", function(req, res) {
+   // res.sendFile(path.join(__dirname + "/../public/signup.html"));
+ // });//
 
 
 };
 
-
-/*var config = {
-    apiKey: "AIzaSyDDdIBY09k0P8lVRz9BxdXhq1eS2HZJbUM",
-    authDomain: "littlewarriors-b3f42.firebaseapp.com",
-    databaseURL: "https://littlewarriors-b3f42.firebaseio.com",
-    storageBucket: "littlewarriors-b3f42.appspot.com",
-    messagingSenderId: "69590432568"
-  };
-  firebase.initializeApp(config);*/
